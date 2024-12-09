@@ -92,7 +92,7 @@
                 Our Volunteer Management System helps organizations engage, manage, and empower volunteers to make a real impact. Whether you're coordinating community events, managing volunteer hours, or matching volunteers to causes, we provide the tools you need to make a difference.
             </p>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <button class="btn btn-primary">Get Involved</button>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</button>
             </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -362,7 +362,7 @@
                 <img src="{{ asset('assets/h/images/logo.svg') }}" class="h-6 mr-3 sm:h-9" alt="Volunteer Management Logo" />
                 VolunteerHub    
             </a>
-            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 VolunteerHub™. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>. Distributed by <a href="https://themewagon.com/" class="text-purple-600 hover:underline dark:text-purple-500">ThemeWagon</a></span>
+            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023-2024 VolunteerHub™. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>. Distributed by <a href="https://themewagon.com/" class="text-purple-600 hover:underline dark:text-purple-500">ThemeWagon</a></span>
             
             <!-- Social Media Links -->
             <ul class="flex justify-center mt-5 space-x-5">
