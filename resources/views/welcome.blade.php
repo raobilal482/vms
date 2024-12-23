@@ -61,19 +61,10 @@
                             <a href="#" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white" aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Company</a>
+                            <a href="{{route('login')}}" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Log In</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                            <a href="{{route('register')}}" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Register</a>
                         </li>
                     </ul>
                 </div>
@@ -92,7 +83,7 @@
                 Our Volunteer Management System helps organizations engage, manage, and empower volunteers to make a real impact. Whether you're coordinating community events, managing volunteer hours, or matching volunteers to causes, we provide the tools you need to make a difference.
             </p>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</button>
+                <a href="{{route('login')}}" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</a>
             </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
@@ -255,104 +246,15 @@
         <div class="max-w-screen-sm mx-auto text-center">
             <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start managing volunteers today</h2>
             <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try our Volunteer Management Platform for 30 days, free of charge. No credit card required.</p>
-            <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Start your free trial</a>
+            <a href="{{route('login')}}" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Start your free trial</a>
         </div>
     </div>
 </section>
 <!-- Start Footer -->
 <footer class="bg-white dark:bg-gray-800">
     <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-        <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
             <!-- Company Info Section -->
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">About Us</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Careers</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Our Mission</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Blog</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Help Center Section -->
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Support</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">FAQs</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Contact Us</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Help Center</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Volunteer Support</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Legal Section -->
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Privacy Policy</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Terms of Service</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Volunteer Agreement</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Resources Section -->
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Volunteer Guide</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Training Materials</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Event Planning</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Download App</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Download Section (Apps) -->
-            <div>
-                <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
-                <ul class="text-gray-500 dark:text-gray-400">
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">iOS App</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Android App</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Web App</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
+        
         <!-- Footer Divider -->
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
 
@@ -362,7 +264,7 @@
                 <img src="{{ asset('assets/h/images/logo.svg') }}" class="h-6 mr-3 sm:h-9" alt="Volunteer Management Logo" />
                 VolunteerHub    
             </a>
-            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2023-2024 VolunteerHub™. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>. Distributed by <a href="https://themewagon.com/" class="text-purple-600 hover:underline dark:text-purple-500">ThemeWagon</a></span>
+            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024-2025 VolunteerHub™. All Rights Reserved. Developed by <a href="https://facebook.com/rao.bilal.167" class="text-purple-600 hover:underline dark:text-purple-500">Rao Bilal</a></span>
             
             <!-- Social Media Links -->
             <ul class="flex justify-center mt-5 space-x-5">
