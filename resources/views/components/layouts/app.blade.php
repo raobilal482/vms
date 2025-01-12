@@ -23,10 +23,14 @@
             <div class="col-span-2">
                 <livewire:layout.side-bar />
             </div>
-            <main class="pt-16 col-span-8 ">
+            <main class="pt-16 pe-3 col-span-10 ">
                 {{ $slot }}
             </main>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@9.0.3"></script>
+
 </body>
 </html>

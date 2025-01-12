@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -14,10 +14,10 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            <livewire:layout.navigation />
-
+    <body class="font-sans ">
+        <div class="min-h-screen bg-gray-900 w-full px-0 dark:bg-gray-900">
+            {{-- <livewire:layout.navigation /> --}}
+{{--
             <!-- Page Heading -->
             @if (isset($header))
                 <header class="bg-white dark:bg-gray-800 shadow">
@@ -25,12 +25,12 @@
                         {{ $header }}
                     </div>
                 </header>
-            @endif
+            @endif --}}
 
             <!-- Page Content -->
-            <main>
+            <main class="w-full px-0 bg-green-500">
                 {{ $slot }}
             </main>
         </div>
     </body>
-</html>
+</html> --}}
